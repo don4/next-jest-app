@@ -10,7 +10,7 @@
     "test": "jest",
     "test:changed": "test --watch",
     "test:all": "yarn run test --watchAll --location=global",
-    "test:coverage:all": "yarn run test --coverage --location=global",
+    "test:coverage": "yarn run test --coverage --location=global",
     "test:ci": "test --ci",
     "prettier": "prettier --write .",
     "prepare": "husky install --location=global"
